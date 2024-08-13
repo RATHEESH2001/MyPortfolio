@@ -31,3 +31,18 @@
     rgba(255, 255, 255, 0)
   );
 }
+body {
+  background-color: rgb(104, 104, 105);
+}
+
+@media (max-width: 750px) {
+  .nav-bar .nav {
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .nav-bar .nav .nav-link {
+    margin-left: 0;
+  }
+}
